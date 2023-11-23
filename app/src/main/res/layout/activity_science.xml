@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScienceActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/backk"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:fontFamily="@font/nunitoregular"
+            android:gravity="center"
+            android:text="Science"
+            android:textAlignment="center"
+            android:textColor="#BC000000"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:fontFamily="@font/nunitoregular"
+            android:text="Sort by"
+            android:textColor="#83000000"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:fontFamily="@font/nunitoregular"
+            android:text="Most Popular"
+            android:textColor="#C9000000"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_gravity="center"
+
+
+            android:src="@drawable/downarrow" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/_10sdp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            >
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:background="@drawable/ll2"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="What is the Universe "
+                    android:textColor="#BC000000"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="Astro prof explain     easily. "
+                    android:textColor="#70000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/nunitoregular"
+                        android:text="7 mints listen"
+                        android:textColor="#70000000"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="@dimen/_23sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_6sdp"
+                            android:src="@drawable/bookmark" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/_10sdp">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:background="@drawable/grenll"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="Why grass appears green "
+                    android:textColor="#BC000000"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="A friendly botanist's quick responce."
+                    android:textColor="#70000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/nunitoregular"
+                        android:text="3 mints listen"
+                        android:textColor="#70000000"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="@dimen/_23sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_6sdp"
+                            android:src="@drawable/bookmark" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/_10sdp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            >
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:background="@drawable/yellowll"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="What defines humanity "
+                    android:textColor="#BC000000"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="Scientist sharing experience. "
+                    android:textColor="#70000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/nunitoregular"
+                        android:text="10 mints listen"
+                        android:textColor="#70000000"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="@dimen/_23sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_6sdp"
+                            android:src="@drawable/bookmark" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/_10sdp">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:background="@drawable/redll"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="So,why do we dream "
+                    android:textColor="#BC000000"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="Doctor here,eager to    talk ! "
+                    android:textColor="#70000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/nunitoregular"
+                        android:text="5 mints listen"
+                        android:textColor="#70000000"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="@dimen/_23sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_6sdp"
+                            android:src="@drawable/bookmark" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/_10sdp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            >
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:background="@drawable/bluell"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="Can we live for ever "
+                    android:textColor="#BC000000"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="The biologist gives their perspective. "
+                    android:textColor="#70000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/nunitoregular"
+                        android:text="4 mints listen"
+                        android:textColor="#70000000"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="@dimen/_23sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_6sdp"
+                            android:src="@drawable/bookmark" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/_10sdp">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:background="@drawable/ll2"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="Is time travel possible "
+                    android:textColor="#BC000000"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/nunitoregular"
+                    android:gravity="left"
+                    android:text="The astronomy professor ready to answer !"
+                    android:textColor="#70000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/nunitoregular"
+                        android:text="7 mints listen"
+                        android:textColor="#70000000"
+                        android:textSize="@dimen/_9sdp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="@dimen/_23sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_6sdp"
+                            android:src="@drawable/bookmark" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
